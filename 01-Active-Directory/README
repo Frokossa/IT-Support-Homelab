@@ -1,0 +1,26 @@
+
+# Week 1 — Active Directory Administration
+
+## Objective
+
+Build and administer a Windows Server Active Directory
+environment and practise common first-line IT support tasks.
+
+## Lab Activities
+
+- Created the corp.lab Active Directory domain.
+- Joined Windows 11 Enterprise to the domain.
+- Created organisational units, users and security groups.
+- Configured departmental shared folders and NTFS permissions.
+- Tested access using different user accounts.
+- Created a Group Policy drive mapping for the S: drive.
+
+## Skills Demonstrated
+
+Active Directory, Windows Server, account administration,
+Group Policy, file permissions and troubleshooting.
+
+## Evidence
+
+Sanitised screenshots and test documentation will be
+added to this folder.
