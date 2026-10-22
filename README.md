@@ -14,26 +14,42 @@ A four-day hands-on IT Support homelab built to demonstrate practical skills in 
 
 ## Lab Environment
 
-- Domain: `corp.lab`
-- Domain controller: `DC01`
-- Windows 11 domain-joined workstation
-- Isolated lab network: `10.10.10.0/24`
-- OPNsense firewall providing routing and DHCP
+The lab uses Proxmox VE to host an isolated
+Windows domain environment.
+
+| System | Role |
+|--------|------|
+| OPNsense (VM 100) | Firewall, routing and DHCP |
+| DC01 (VM 101) | Active Directory and DNS |
+| Windows 11 (VM 102) | Domain-joined workstation |
+
+**Domain:** corp.lab  
+**Lab network:** 10.10.10.0/24
 
 ## Project Highlights
 
-### Active Directory & Group Policy
-Created users, organisational units and security groups. Configured NTFS permissions, departmental shares and automatic drive mapping.
+### 1. Active Directory & Group Policy
+- Created user accounts, OUs and security groups.
+- Configured NTFS permissions and departmental shares.
+- Used Group Policy to map network drives.
 
-### Service Desk
-Completed five simulated incidents covering account lockouts, file access, authentication, Group Policy and DNS. Produced three knowledge-base articles.
+### 2. Service Desk & Incident Management
+- Investigated five simulated support incidents.
+- Troubleshot account lockouts, permissions and DNS.
+- Created three knowledge-base articles.
 
-### Troubleshooting & PowerShell
-Used Windows diagnostic tools to investigate network, DNS, Group Policy and service issues. Created a PowerShell script that exports system diagnostics.
+### 3. Windows Troubleshooting & PowerShell
+- Used ipconfig, nslookup, nltest and gpresult.
+- Investigated Windows services and Event Viewer logs.
+- Developed a PowerShell system diagnostic script.
 
-### Backup & Disaster Recovery
-Configured VM backups, restored an isolated OPNsense VM and verified a Windows Server System State backup.
-
+### 4. Backup & Disaster Recovery
+- Configured Proxmox backup storage.
+- Backed up three virtual machines.
+- Successfully restored an isolated OPNsense VM.
+- Created and verified a Windows Server
+  System State backup.
+  
 ## Repository Contents
 
 - `01-Active-Directory/`
