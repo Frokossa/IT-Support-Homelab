@@ -19,5 +19,17 @@ environment and practise common first-line IT support tasks.
 
 Active Directory, Windows Server, account administration,
 Group Policy, file permissions and troubleshooting.
+
 ## Evidence
+
+| Evidence | Description |
+
+| [OU Structure](OU%20Structure.png) | Active Directory organisational unit structure. |
+| [Permission Test Results](001-Permission-Test-Results.pdf) | Departmental shared folder access tests and results. |
+| [Security Groups](Security%20Groups.png) | Active Directory security groups used for access management. |
+| [Shared Folders](Shared%20Folders.png) | Departmental shared folder configuration. |
+| [User Accounts](User%20Accounts.png) | Fictional domain user accounts created for testing. |
+  
+
+
 
