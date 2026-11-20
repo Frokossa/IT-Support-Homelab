@@ -1,4 +1,3 @@
-
 # Week 1 — Active Directory Administration
 
 ## Objective
@@ -28,10 +27,5 @@ Group Policy, file permissions and troubleshooting.
 | [OU Structure](./OU%20Structure.png) | Active Directory organisational unit structure |
 | [Permission Test Results](./001-Permission-Test-Results.pdf) | Departmental access permission tests |
 | [Security Groups](./Security%20Groups.png) | Active Directory security groups |
-| [Shared Folders](./Shared%20Folders.png) | Departmental shared folder configuration |
+| [Shared Folder](./Shared%20Folder.png) | Departmental shared folder configuration |
 | [User Accounts](./User%20Accounts.png) | Fictional Active Directory user accounts |
-
-  
-
-
-
