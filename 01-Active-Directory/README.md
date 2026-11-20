@@ -1,0 +1,31 @@
+# Week 1 — Active Directory Administration
+
+## Objective
+
+Build and administer a Windows Server Active Directory
+environment and practise common first-line IT support tasks.
+
+## Lab Activities
+
+- Created the corp.lab Active Directory domain.
+- Joined Windows 11 Enterprise to the domain.
+- Created organisational units, users and security groups.
+- Configured departmental shared folders and NTFS permissions.
+- Tested access using different user accounts.
+- Created a Group Policy drive mapping for the S: drive.
+
+## Skills Demonstrated
+
+Active Directory, Windows Server, account administration,
+Group Policy, file permissions and troubleshooting.
+
+
+## Evidence
+
+| Evidence | Description |
+|---|---|
+| [OU Structure](./OU%20Structure.png) | Active Directory organisational unit structure |
+| [Permission Test Results](./001-Permission-Test-Results.pdf) | Departmental access permission tests |
+| [Security Groups](./Security%20Groups.png) | Active Directory security groups |
+| [Shared Folder](./Shared%20Folder.png) | Departmental shared folder configuration |
+| [User Accounts](./User%20Accounts.png) | Fictional Active Directory user accounts |
