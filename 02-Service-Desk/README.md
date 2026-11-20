@@ -11,7 +11,7 @@ Practise common first-line IT support workflows in a simulated Windows 11 and Wi
 | INC-001 | User authentication complaint | Investigated a reported sign-in problem; the issue could not be reproduced during testing. |
 | INC-002 | Account lockout | Reproduced an Active Directory lockout using a five-attempt policy; examined Windows Event ID 4740 and unlocked the test account. |
 | INC-003 | Shared folder access denied | Tested departmental access by removing and restoring a user's Finance security-group membership. |
-| INC-004 | Missing network drive mapping | Investigated Group Policy linking and drive-mapping behaviour on the domain-joined workstation. |
+| INC-004 | Drive-mapping policy test | Disabled a GPO link and verified that an existing S: mapping persisted; restored policy application. |
 | INC-005 | DNS name-resolution failure | Intentionally misconfigured client DNS, diagnosed the problem, and restored the correct configuration. |
 
 ## Knowledge-base articles
@@ -29,9 +29,25 @@ Practise common first-line IT support workflows in a simulated Windows 11 and Wi
 - DNS troubleshooting and resolution verification
 - Clear technical documentation and knowledge sharing
 
-## Evidence
+## Incident reports
 
-Supporting incident reports and knowledge-base articles will be linked here once the sanitised source documents are uploaded.
+| Report | Scenario |
+|---|---|
+| [INC-001](Incidents/INC-001-Login-Issue.md) | User sign-in complaint — could not reproduce |
+| [INC-002](Incidents/INC-002-AD-Account-Lockout.md) | Active Directory account lockout and Event ID 4740 |
+| [INC-003](Incidents/INC-003-Finance-Folder-Access-Denied.md) | Finance folder access and security-group membership |
+| [INC-004](Incidents/INC-004-GPO-Drive-Mapping.md) | GPO link and persistent S: drive mapping |
+| [INC-005](Incidents/INC-005-AD-DNS-Resolution.md) | DNS resolver misconfiguration |
+
+## Knowledge-base documentation
+
+| Article | Procedure |
+|---|---|
+| [KB-001](Knowledge-Base/KB-001-AD-Account-Lockout.md) | Unlock a domain user account |
+| [KB-002](Knowledge-Base/KB-002-Shared-Folder-Access.md) | Troubleshoot departmental folder access |
+| [KB-003](Knowledge-Base/KB-003-AD-DNS-Resolution.md) | Troubleshoot AD DNS resolution |
+
+The source Word documents were adapted into readable Markdown for GitHub. Descriptions reflect confirmed lab observations and are not commercial ticket records.
 
 ## Disclaimer
 
